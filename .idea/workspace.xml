@@ -4,7 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="19178003-155e-45cb-aeb2-90aa6494da55" name="Changes" comment="" />
+    <list default="true" id="19178003-155e-45cb-aeb2-90aa6494da55" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/system/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/system/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/system/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/system/urls.py" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -41,7 +45,7 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "master",
-    "last_opened_file_path": "/Users/exodus/coding/github/test-blog-drf/src/jwt_auth",
+    "last_opened_file_path": "/Users/exodus/coding/github/test-blog-drf/src/authors",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -53,8 +57,8 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/src/jwt_auth" />
       <recent name="$PROJECT_DIR$/src/authors" />
+      <recent name="$PROJECT_DIR$/src/jwt_auth" />
     </key>
   </component>
   <component name="RunManager">
@@ -100,11 +104,22 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1715772717453</updated>
-      <workItem from="1715772749273" duration="11754000" />
+      <workItem from="1715772749273" duration="14189000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>
