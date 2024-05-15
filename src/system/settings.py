@@ -39,9 +39,10 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'rest_framework',
-    'jwt_auth.apps.JwtAuthConfig',
     'rest_framework_simplejwt',
-    'authors.apps.AuthorsConfig',
+    'applications.jwt_auth.apps.JwtAuthConfig',
+    'applications.authors.apps.AuthorsConfig',
+    'applications.tags.apps.TagsConfig',
 ]
 
 MIDDLEWARE = [

@@ -1,5 +1,5 @@
 from django.db import models
-from jwt_auth.models import User
+from applications.jwt_auth.models import User
 from django.db.models.signals import post_save
 from django.dispatch import receiver
 

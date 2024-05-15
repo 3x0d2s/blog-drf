@@ -1,5 +1,5 @@
 from rest_framework import serializers
-from jwt_auth.models import User
+from applications.jwt_auth.models import User
 from .models import Author
 
 
