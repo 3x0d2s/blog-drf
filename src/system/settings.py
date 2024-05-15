@@ -43,6 +43,7 @@ INSTALLED_APPS = [
     'applications.jwt_auth.apps.JwtAuthConfig',
     'applications.authors.apps.AuthorsConfig',
     'applications.tags.apps.TagsConfig',
+    'applications.categories.apps.CategoriesConfig',
 ]
 
 MIDDLEWARE = [
