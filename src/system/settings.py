@@ -44,6 +44,7 @@ INSTALLED_APPS = [
     'applications.authors.apps.AuthorsConfig',
     'applications.tags.apps.TagsConfig',
     'applications.categories.apps.CategoriesConfig',
+    'applications.posts.apps.PostsConfig'
 ]
 
 MIDDLEWARE = [
