@@ -25,14 +25,13 @@ urlpatterns = [
     path('admin/', admin.site.urls),
     path('api/schema/', SpectacularAPIView.as_view(), name='schema'),
     # Optional UI:
-    path(
-        'api/schema/swagger-ui/',
-        SpectacularSwaggerView.as_view(url_name='schema'),
-        name='swagger-ui'
-    ),
+    path('api/schema/swagger-ui/',
+         SpectacularSwaggerView.as_view(url_name='schema'),
+         name='swagger-ui'
+         ),
+    path('api/authors', include('applications.authors.urls')),
+    path('api/categories', include('applications.categories.urls')),
+    path('api/tags', include('applications.tags.urls')),
+    path('api/posts', include('applications.posts.urls')),
     path('', include('applications.jwt_auth.urls')),
-    path('', include('applications.authors.urls')),
-    path('', include('applications.categories.urls')),
-    path('', include('applications.tags.urls')),
-    path('', include('applications.posts.urls')),
 ]

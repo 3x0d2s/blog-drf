@@ -6,13 +6,10 @@
   <component name="ChangeListManager">
     <list default="true" id="19178003-155e-45cb-aeb2-90aa6494da55" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/poetry.lock" beforeDir="false" afterPath="$PROJECT_DIR$/poetry.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pyproject.toml" beforeDir="false" afterPath="$PROJECT_DIR$/pyproject.toml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/applications/authors/serializers.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/applications/authors/serializers.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/applications/authors/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/applications/authors/views.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/applications/categories/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/applications/categories/views.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/applications/tags/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/applications/tags/views.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/system/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/system/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/applications/authors/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/applications/authors/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/applications/categories/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/applications/categories/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/applications/posts/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/applications/posts/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/applications/tags/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/applications/tags/urls.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/system/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/system/urls.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -117,7 +114,7 @@
       <option name="presentableId" value="Default" />
       <updated>1715772717453</updated>
       <workItem from="1715772749273" duration="34668000" />
-      <workItem from="1716309905190" duration="2834000" />
+      <workItem from="1716309905190" duration="3817000" />
     </task>
     <servers />
   </component>
