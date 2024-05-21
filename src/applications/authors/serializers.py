@@ -3,7 +3,7 @@ from applications.jwt_auth.models import User
 from .models import Author
 
 
-class UserSerializer(serializers.ModelSerializer):
+class UserSerializerForAuthor(serializers.ModelSerializer):
 
     class Meta:
         model = User
@@ -11,9 +11,9 @@ class UserSerializer(serializers.ModelSerializer):
 
 
 class AuthorSerializer(serializers.ModelSerializer):
-    user = UserSerializer(read_only=True)
+    user = UserSerializerForAuthor(read_only=True)
 
     class Meta:
         model = Author
-        fields = ['id', 'user', 'bio']
+        fields = ['id', 'user', 'bio', 'posts']
 

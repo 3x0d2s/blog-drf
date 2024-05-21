@@ -44,7 +44,9 @@ INSTALLED_APPS = [
     'applications.authors.apps.AuthorsConfig',
     'applications.tags.apps.TagsConfig',
     'applications.categories.apps.CategoriesConfig',
-    'applications.posts.apps.PostsConfig'
+    'applications.posts.apps.PostsConfig',
+    'drf_spectacular',
+    'django_filters'
 ]
 
 MIDDLEWARE = [
@@ -142,6 +144,10 @@ REST_FRAMEWORK = {
     ],
     'DEFAULT_AUTHENTICATION_CLASSES': (
         'rest_framework_simplejwt.authentication.JWTAuthentication',
+    ),
+    'DEFAULT_SCHEMA_CLASS': 'drf_spectacular.openapi.AutoSchema',
+    'DEFAULT_FILTER_BACKENDS': (
+        'django_filters.rest_framework.DjangoFilterBackend',
     )
 }
 
@@ -184,4 +190,11 @@ SIMPLE_JWT = {
     "TOKEN_BLACKLIST_SERIALIZER": "rest_framework_simplejwt.serializers.TokenBlacklistSerializer",
     "SLIDING_TOKEN_OBTAIN_SERIALIZER": "rest_framework_simplejwt.serializers.TokenObtainSlidingSerializer",
     "SLIDING_TOKEN_REFRESH_SERIALIZER": "rest_framework_simplejwt.serializers.TokenRefreshSlidingSerializer",
+}
+
+SPECTACULAR_SETTINGS = {
+    'TITLE': 'Swagger API',
+    'DESCRIPTION': 'Swagger API description',
+    'VERSION': '1.0.0',
+    'SERVE_INCLUDE_SCHEMA': False,
 }

@@ -6,7 +6,14 @@
   <component name="ChangeListManager">
     <list default="true" id="19178003-155e-45cb-aeb2-90aa6494da55" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/poetry.lock" beforeDir="false" afterPath="$PROJECT_DIR$/poetry.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pyproject.toml" beforeDir="false" afterPath="$PROJECT_DIR$/pyproject.toml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/applications/authors/serializers.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/applications/authors/serializers.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/applications/authors/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/applications/authors/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/applications/categories/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/applications/categories/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/applications/tags/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/applications/tags/views.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/system/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/system/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/system/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/system/urls.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -26,9 +33,9 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 7
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 7
+}</component>
   <component name="ProjectId" id="2gVBA7kYwUZxnwIdSfJxmoSdkG4" />
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="1" id="Add" />
@@ -37,27 +44,28 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Django Server.server.executor": "Run",
-    "RunOnceActivity.OpenDjangoStructureViewOnStart": "true",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "master",
-    "last_opened_file_path": "/Users/exodus/coding/github/test-blog-drf/src/applications/categories",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "com.jetbrains.django.DjangoModulesConfigurable",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Django Server.server.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.OpenDjangoStructureViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/exodus/coding/github/test-blog-drf/src/applications/posts&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;com.jetbrains.django.DjangoModulesConfigurable&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/src/applications/categories" />
+      <recent name="$PROJECT_DIR$/src/applications/posts" />
       <recent name="$PROJECT_DIR$/src/applications/tags" />
+      <recent name="$PROJECT_DIR$/src/applications/categories" />
       <recent name="$PROJECT_DIR$/src/authors" />
       <recent name="$PROJECT_DIR$/src/jwt_auth" />
     </key>
@@ -108,7 +116,8 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1715772717453</updated>
-      <workItem from="1715772749273" duration="17296000" />
+      <workItem from="1715772749273" duration="34668000" />
+      <workItem from="1716309905190" duration="2834000" />
     </task>
     <servers />
   </component>
