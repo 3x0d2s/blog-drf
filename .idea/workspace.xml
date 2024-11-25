@@ -5,12 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="19178003-155e-45cb-aeb2-90aa6494da55" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/57792177-ce16-47a6-91e6-0defe1b56e09.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/57792177-ce16-47a6-91e6-0defe1b56e09.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/57792177-ce16-47a6-91e6-0defe1b56e09/storage_v2/_src_/database/blog_db.O4a6_g/schema/public.abK9xQ.meta" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/57792177-ce16-47a6-91e6-0defe1b56e09/storage_v2/_src_/database/blog_db.O4a6_g/schema/public.abK9xQ.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/test-blog-drf.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/test-blog-drf.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/applications/authors/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/applications/authors/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/applications/categories/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/applications/categories/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/applications/posts/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/applications/posts/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/applications/tags/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/applications/tags/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/system/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/system/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/poetry.lock" beforeDir="false" afterPath="$PROJECT_DIR$/poetry.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pyproject.toml" beforeDir="false" afterPath="$PROJECT_DIR$/pyproject.toml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/applications/authors/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/applications/authors/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/applications/posts/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/applications/posts/views.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -30,6 +33,18 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;3x0d2s&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;git@github.com:3x0d2s/test-blog-drf.git&quot;,
+    &quot;accountId&quot;: &quot;26dd4c5a-085f-43e7-88fd-dbecd4179a7d&quot;
+  }
+}</component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 7
 }</component>
@@ -41,23 +56,26 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Django Server.server.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.OpenDjangoStructureViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/Users/exodus/coding/github/test-blog-drf/src/applications/posts&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;com.jetbrains.django.DjangoModulesConfigurable&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Django Server.server.executor": "Run",
+    "Django Server.test-blog-drf.executor": "Run",
+    "RunOnceActivity.OpenDjangoStructureViewOnStart": "true",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "RunOnceActivity.pycharm.django.structure.promotion.once.per.project": "true",
+    "git-widget-placeholder": "master",
+    "last_opened_file_path": "/Users/exodus/coding/projects/test-blog-drf",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "com.jetbrains.django.DjangoModulesConfigurable",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/applications/posts" />
@@ -70,7 +88,7 @@
       <recent name="$PROJECT_DIR$/src/applications" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Django Server.test-blog-drf">
     <configuration name="server" type="Python.DjangoServer" factoryName="Django server">
       <module name="test-blog-drf" />
       <option name="ENV_FILES" value="" />
@@ -97,11 +115,37 @@
       <option name="customRunCommand" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="test-blog-drf" type="Python.DjangoServer" factoryName="Django server">
+      <module name="test-blog-drf" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+        <env name="DJANGO_SETTINGS_MODULE" value="system.settings" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="launchJavascriptDebuger" value="false" />
+      <option name="port" value="8000" />
+      <option name="host" value="localhost" />
+      <option name="additionalOptions" value="" />
+      <option name="browserUrl" value="" />
+      <option name="runTestServer" value="false" />
+      <option name="runNoReload" value="false" />
+      <option name="useCustomRunCommand" value="false" />
+      <option name="customRunCommand" value="" />
+      <method v="2" />
+    </configuration>
   </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-python-sdk-09665e90c3a7-b11f5e8da5ad-com.jetbrains.pycharm.pro.sharedIndexes.bundled-PY-233.15026.15" />
+        <option value="bundled-js-predefined-d6986cc7102b-e768b9ed790e-JavaScript-PY-243.21565.199" />
+        <option value="bundled-python-sdk-cab1f2013843-4ae2d6a61b08-com.jetbrains.pycharm.pro.sharedIndexes.bundled-PY-243.21565.199" />
       </set>
     </attachedChunks>
   </component>
@@ -114,7 +158,11 @@
       <option name="presentableId" value="Default" />
       <updated>1715772717453</updated>
       <workItem from="1715772749273" duration="34668000" />
-      <workItem from="1716309905190" duration="3817000" />
+      <workItem from="1716309905190" duration="4571000" />
+      <workItem from="1716456411633" duration="3566000" />
+      <workItem from="1732134456688" duration="1038000" />
+      <workItem from="1732540273182" duration="2442000" />
+      <workItem from="1732549549743" duration="196000" />
     </task>
     <servers />
   </component>
