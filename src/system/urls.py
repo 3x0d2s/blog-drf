@@ -29,9 +29,9 @@ urlpatterns = [
          SpectacularSwaggerView.as_view(url_name='schema'),
          name='swagger-ui'
          ),
-    path('api/authors', include('applications.authors.urls')),
-    path('api/categories', include('applications.categories.urls')),
-    path('api/tags', include('applications.tags.urls')),
-    path('api/posts', include('applications.posts.urls')),
+    path('api/', include('applications.authors.urls')),
+    path('api/', include('applications.categories.urls')),
+    path('api/', include('applications.tags.urls')),
+    path('api/', include('applications.posts.urls')),
     path('', include('applications.jwt_auth.urls')),
 ]
