@@ -33,5 +33,6 @@ urlpatterns = [
     path('api/', include('applications.categories.urls')),
     path('api/', include('applications.tags.urls')),
     path('api/', include('applications.posts.urls')),
+    path('api/', include('applications.comments.urls')),
     path('', include('applications.jwt_auth.urls')),
 ]
