@@ -1,0 +1,31 @@
+version: "3.7"
+
+services:
+  api:
+    image: blog-api:latest
+    container_name: blog-api
+    depends_on:
+      postgresql:
+        condition: service_healthy
+    ports:
+      - "8001:8000"
+    volumes:
+      - ./.env:/opt/app/python/.env
+
+  postgresql:
+    image: postgres:16.4-bullseye
+    container_name: postgresql-blog
+    hostname: postgresql
+    healthcheck:
+      test: [ "CMD-SHELL", "pg_isready -d blog -U db_admin" ]
+      interval: 5s
+      timeout: 5s
+      retries: 5
+    expose:
+      - 5432
+    volumes:
+      - ./postgresql:/var/lib/postgresql/data
+    environment:
+      POSTGRES_USER: db_admin
+      POSTGRES_PASSWORD: changethis
+      POSTGRES_DB: blog
