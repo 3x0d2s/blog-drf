@@ -1,3 +1,4 @@
+from django.conf import settings
 from django_filters.rest_framework import DjangoFilterBackend
 from rest_framework import status
 from rest_framework.filters import SearchFilter, OrderingFilter
@@ -29,7 +30,7 @@ class PostViewSet(ModelViewSet):
     def create(self, request, *args, **kwargs):
         check = toxicity_model.text2toxicity(f"{request.data['header']}\n{request.data['body']}",
                                              aggregate=True)
-        if check > 0.5:
+        if check > settings.TOXICITY_THRESHOLD:
             return Response({"error": "ToxicityError",
                              "message": "Toxicity check failed"}, status=status.HTTP_400_BAD_REQUEST)
         return super().create(request, *args, **kwargs)

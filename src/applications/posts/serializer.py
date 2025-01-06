@@ -1,7 +1,8 @@
-from .models import Post
 from rest_framework import serializers
+
 from applications.jwt_auth.models import User
 from applications.posts.models import Author
+from .models import Post
 from ..categories.models import Category
 from ..comments.models import Comment
 from ..tags.models import Tag
@@ -45,13 +46,19 @@ class CommentSerializerForPost(serializers.ModelSerializer):
 
 class PostSerializer(serializers.ModelSerializer):
     author = AuthorSerializerForPost(read_only=True)
-    category = CategorySerializerForPost(read_only=True)
+    category = serializers.PrimaryKeyRelatedField(
+        queryset=Category.objects.all(), write_only=True
+    )
+    category_details = CategorySerializerForPost(read_only=True, source="category")
     tags = TagSerializerForPost(read_only=True, many=True)
     comments = CommentSerializerForPost(read_only=True, many=True)
 
     class Meta:
         model = Post
-        fields = "__all__"
+        fields = '__all__'
+        extra_kwargs = {
+            "date_posted": {"read_only": True},
+        }
 
     def create(self, validated_data):
         request = self.context.get("request")
